@@ -29,9 +29,10 @@ const styles = StyleSheet.create({
      
     },
     boton:{
+        marginTop: 15,
         borderRadius: 10,
         height: 70,
-        whidth: 205,
+        width: 205,
         borderColor: 'white',
         borderWhidth: 2,
         justifyContent:'center',
