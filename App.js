@@ -58,6 +58,7 @@ const styles = StyleSheet.create({
     width: '100%',
     justifyContent: 'flex-start',
     alignItems: 'center',
+  
   },
 
   containerContador: {
@@ -73,18 +74,19 @@ const styles = StyleSheet.create({
   containerLogo: {
     flex: 1,
     width: '100%',
-    alignItems: 'center',
+    justifyContent: 'flex-end',
     backgroundColor: '#0B0B17',
     
   },
   numero: {
     fontSize: 100,
     color: 'white',
-    paddingLeft: 20
+  justifyContent: 'center',
   },
   logo: {
-    height:200,
+    height:100,
     width: "100%",
+   
   },
   
 });

@@ -29,12 +29,11 @@ const styles = StyleSheet.create({
      
     },
     boton:{
+     
         marginTop: 15,
         borderRadius: 10,
         height: 70,
         width: 205,
-        borderColor: 'white',
-        borderWhidth: 2,
         justifyContent:'center',
         shadowncolor: 'white',
         shadowOffset: { width: 0, height: 9 },
