@@ -15,6 +15,13 @@ const FuncionMas = () => {
 const FuncionReload = () => {
   setContador(0)
 }
+const FuncionMenos = () => {
+  if (contador > 0) {
+    setContador(contador - 1)
+  } else {
+    alert('No se puede disminuir el contador')
+  }
+}
 
   return (
     <View style={styles.container}>
@@ -37,6 +44,17 @@ const FuncionReload = () => {
           color='green'
           colorText='white'
           onPress={FuncionReload}>
+        </Boton>
+
+        <Boton
+        boton ="Disminuir"
+        color='red'
+        colorText='white'
+        onPress={FuncionMenos}
+        
+        >
+
+
         </Boton>
 
       </View>
